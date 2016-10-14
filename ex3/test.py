@@ -1,4 +1,7 @@
 #!/usr/bin/python
+#
+#   a Python program that solves the Schrodinger eqn
+#   once using linalg and once using a wrapped routine from lapack
 import numpy as np
 
 import scipy.cluster
