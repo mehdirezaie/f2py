@@ -1,5 +1,8 @@
 #!/usr/bin/python
-"""Pure Python Scientific Hello World module."""
+"""
+   Pure Python module to do matrix multiplication
+   (c) Mehdi Rezaie
+"""
 import math, sys,numpy
 
 def mul(x,y):
