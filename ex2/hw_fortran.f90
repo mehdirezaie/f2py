@@ -1,3 +1,7 @@
+!
+!   a Fortran routine to do matrix multiplication
+!   (c) Mehdi Rezaie
+
 subroutine matrix (X,Y,n,C)
 integer,intent(in) :: n
 real(8),dimension(n,n),intent(in) :: X,Y
