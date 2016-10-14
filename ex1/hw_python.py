@@ -1,5 +1,8 @@
 #!/usr/bin/python
-"""Pure Python Scientific Hello World module."""
+"""
+   Pure Python Scientific Hello World module.
+   (c) Mehdi Rezaie
+"""
 import math, sys
 
 def hw1(r1, r2):
