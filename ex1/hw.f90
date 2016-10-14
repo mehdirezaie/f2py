@@ -1,3 +1,7 @@
+!
+!   a fortran function and subroutine
+!   (c) Mehdi Rezaie
+!
     real*8 function hw1(r1, r2)
     real*8 r1, r2
     hw1 = sin(r1 + r2)
