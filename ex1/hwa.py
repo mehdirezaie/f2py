@@ -1,5 +1,8 @@
 #!/usr/bin/python
-"""Scientific Hello World script using the module hw."""
+"""
+   Scientific Hello World script using the module hw.
+   (c) Mehdi Rezaie
+"""
 import sys
 from hw import hw1, hw2
 try:
