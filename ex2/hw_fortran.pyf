@@ -1,0 +1,16 @@
+!    -*- f90 -*-
+! Note: the context of this file is case sensitive.
+
+python module hw_fortran ! in 
+    interface  ! in :hw_fortran
+        subroutine matrix(x,y,n,c) ! in :hw_fortran:hw_fortran.f90
+            real(kind=8) dimension(n,n),intent(in) :: x
+            real(kind=8) dimension(n,n),intent(in),depend(n,n) :: y
+            integer, optional,intent(in),check(shape(x,0)==n),depend(x) :: n=shape(x,0)
+            real(kind=8) dimension(n,n),intent(out),depend(n,n) :: c
+        end subroutine matrix
+    end interface 
+end python module hw_fortran
+
+! This file was auto-generated with f2py (version:2).
+! See http://cens.ioc.ee/projects/f2py2e/
