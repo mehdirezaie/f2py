@@ -2,6 +2,7 @@
 """
    a driver script that imports Fortran/Pythob modules to 
    do Multiplication of two matrices
+   (c) Mehdi Rezaie
 """
 import sys,time
 import numpy as np
