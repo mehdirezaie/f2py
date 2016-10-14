@@ -2,6 +2,8 @@
 #
 #   a Python program that solves the Schrodinger eqn
 #   once using linalg and once using a wrapped routine from lapack
+#
+#   (c) Mehdi Rezaie
 import numpy as np
 
 import scipy.cluster
